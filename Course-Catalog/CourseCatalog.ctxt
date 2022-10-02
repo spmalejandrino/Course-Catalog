@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=CourseCatalog
+comment0.text=\n\ The\ CourseCatalog\ class\ reads\ a\ set\ of\ courses\ from\ the\ file\ coursedata.txt.\ \ Each\n\ course\ consists\ of\ a\ department,\ a\ course\ number,\ a\ credit\ amount,\ a\ competency\ (W,\ Q,\ S,\ \n\ or\ X),\ and\ a\ group\ designation\ (1,\ 2,\ 3,\ 4,\ 5,\ 6\ or\ 0\ for\ \ no\ group).\n\ \n\ The\ class\ provides\ methods\ for\ searching\ for\ courses\ based\ on\ specific\ criterion.\n\ \n\ @author\ Computer\ Science\ Department\ \n\ @version\ November,\ 2007\n
+comment1.params=
+comment1.target=CourseCatalog()
+comment1.text=\n\ The\ constructor\ for\ the\ CourseCatalog\ class\ initializes\ the\ ArrayList\ to\ be\ empty\n\ and\ reads\ courses\ from\ the\ file\ displaying\ them\ on\ the\ console.\ You\ will\ be\ modifying\n\ this\ constructor\ so\ that\ it\ adds\ the\ courses\ to\ the\ ArrayList\ instead\ of\ displaying\n\ them\ on\ the\ console.\n
+comment2.params=department\ competency
+comment2.target=void\ printSelectedCourses(java.lang.String,\ java.lang.String)
+comment2.text=\n\ You\ will\ be\ completing\ this\ method.\ \ When\ completed\ the\ method\ should\n\ print\ all\ of\ the\ courses\ in\ the\ ArrayList\ which\ have\ a\ department\ that\n\ matches\ the\ parameter.\ \ Remember\ to\ use\ .equals\ to\ compare\ strings.\n
+numComments=3
